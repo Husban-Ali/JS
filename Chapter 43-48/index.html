@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button onclick="alert('Hello')">Click Here</button>
+    <img src="./Assets/Images/download (1).jpeg" alt="" onclick="alert('Thank you for purchasing')">
+    <img src="./Assets/Images/download.jpeg" alt="" onclick="alert('Thank you for purchasing')">
+    <img src="./Assets/Images/download (2).jpeg" alt="" onclick="alert('Thank you for purchasing')">
+    <table>
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Name </th>
+                <th>Class</th>
+            </tr>
+
+        </thead>
+        <tbody>
+
+            <tr id="Info">
+                <td>1</td>
+                <td>John</td>
+                <td>10</td>
+                <td><button  onclick="deleteInfo()">Delete</button></td>
+            </tr>
+            <tr   id="Info">
+                <td>2</td>
+                <td>Noman</td>
+                <td>7</td>
+                <td><button onclick="deleteInfo()">Delete</button></td>
+            </tr>
+            <tr id="Info" >
+                <td>3</td>
+                <td>Asad</td>
+                <td>4</td>
+                <td><button onclick="deleteInfo()">Delete</button></td>
+            </tr>
+        </tbody>
+    </table><br>
+<p>Q.4</p><br>
+<img src="./Assets/Images/download.jpeg" onmouseover="src=' ./Assets/Images/download (2).jpeg'" onmouseout="src=' ./Assets/Images/download.jpeg' " >
+
+    <script src="./script.js">
+
+    </script>
+    <p>Q.5</p>
+    <h1 id="counter">0</h1>
+    <button id="increase" onclick="changecounter(1)">increase</button>
+    <button id="decrease" onclick="changecounter(-1)">decrease</button>
+</body>
+
+</html>
