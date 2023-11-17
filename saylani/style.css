@@ -1,0 +1,14 @@
+body{
+    background-color: darkslategrey;
+}
+.style{
+    /* width: 100px;
+    height: auto; */
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* margin-top: 50%; */
+    background-color: cadetblue;
+}
